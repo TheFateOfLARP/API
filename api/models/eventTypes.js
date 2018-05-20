@@ -3,7 +3,7 @@ module.exports = {
       name: { type: 'string', required: true, unique: true },
       slug: { type: 'string', required: true, unique: true },
       events: {
-        collection: 'events',
+        collection: 'Events',
         via: 'type'
       }
     },
